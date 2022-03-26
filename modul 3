@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Membuat From Login</title>
+    </head>
+    <body>
+        <from action="hasil.php" method="POST">
+            <table>
+                <tr>
+                    <td>Username</td>
+                    <td><input type="text" name="username"></td>
+                </tr>
+                    <td>Password</td>
+                    <td><input type="password" name="password"></td>
+                <tr>
+                    <td>
+                        <input type="submit" name="submit">
+                        <input type="reset" name="reset">
+                    </td>
+                </tr>
+            </table>
+        </from>
+    </body>
+</html>
